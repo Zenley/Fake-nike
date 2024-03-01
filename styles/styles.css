@@ -104,10 +104,6 @@ width: 1800px;
     background-color: #ffffff
 }
 
-input {
-    background-image: ;
-}
-
 .about {
     background-image: linear-gradient(rgba(155, 124, 84, 0.2), rgba(22, 17, 7, 0.3)), url("/images/wp4652880.jpg");
     background-repeat: no-repeat;
