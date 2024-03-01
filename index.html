@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=qw">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/styles/modern-normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Jordan</title>
@@ -11,44 +16,55 @@
 
 <body>
     <header>
-
-        <nav class="nav-bar">
-            <div class="containter">
-                <ul class="list-class">
-                    <li><a href="https://www.nike.com/ro/w/new-3n82y">New & Featured</a></li>
-                    <li><a href="https://www.nike.com/ro/men">Men</a></li>
-                    <li><a href="https://www.nike.com/ro/women">Women</a></li>
-                    <li><a href="https://www.nike.com/ro/kids">Kids</a></li>
-                    <li><a href="https://www.nike.com/ro/w/sale-3yaep">Sale</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Search..." class="search-bar">
+        <div class="container">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a href="https://www.nike.com/ro/jordan"><img src="/svg/nike-4-logo-svgrepo-com.svg" class="nike"
+                            alt="Nike logo"></a>
                 </div>
-            </div>
-        </nav>
+                <div class="menu">
+                    <ul class="list-class" role="menubar">
+                        <li><a href="https://www.nike.com/ro/w/new-3n82y">New & Featured</a></li>
+                        <li><a href="https://www.nike.com/ro/men">Men</a></li>
+                        <li><a href="https://www.nike.com/ro/women">Women</a></li>
+                        <li><a href="https://www.nike.com/ro/kids">Kids</a></li>
+                        <li><a href="https://www.nike.com/ro/w/sale-3yaep">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="bar">
+                    <input type="text" placeholder="Search" class="search-bar">
+                    <a href=""><img src="/svg/favorite.svg" alt="Favorite image" class="favorite"></a>
+                    <a href=""><img src="/svg/shopping-bag.svg" alt="" class="bag"></a>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
         <!-- Section abour-jordan -->
         <section class="about">
             <div class="container">
-                <h2>TAP IN TO Jordan</h2>
-                <h3>Enter the new home of Jordan Brand, now on the Nike app</h3>
+                <h2>TAP IN TO JORDAN MODE</h2>
+                <p>Enter the new home of Jordan Brand, now on the Nike app.</p>
                 <button type="button">Learn More</button>
             </div>
         </section>
 
         <!-- Trending now -->
-        <section>
+        <section class="trending">
             <div class="container">
-                <H3>TRENDING NOW</H3>
-            </div>
-            <div>
-                <h4>Jordan Apparel</h4>
-                <h2>BROOKLYN FLEECE</h2>
-                <p>Smooth on the outside. Plush on the inside. Get the perfect combo of comfort and cool for the whole
-                    family with these staples.</p>
-                <button type="button">Shop</button>
+                <div class="subtitle">
+                    <H3>TRENDING NOW</H3>
+                </div>
+                <span class="about-trending"> </span>
+                <div class="write">
+                    <span>Jordan Apparel</span>
+                    <h2>BROOKLYN FLEECE</h2>
+                    <p>Smooth on the outside. Plush on the inside. Get the perfect combo of comfort and cool for the
+                        whole
+                        family with these staples.</p>
+                    <button type="button">Shop</button>
+                </div>
+
             </div>
         </section>
         <!-- Jordan women -->
@@ -58,7 +74,7 @@
                     JORDAN WOMEN
                 </h3>
             </div>
-            <div class="container">
+            <div class="">
                 <h4>Jordan Women</h4>
                 <h2>WOMEN'S SPORT</h2>
                 <p>For every pivot, side step, and jump shot, this collection keeps you moving. Minimalist design lets
